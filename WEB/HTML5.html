@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 EXERCISE</title>
+</head>
+<body>
+  <!-- 주석 작성 -->
+  <!-- 주석 단축키 : cmd + '/' -->
+  <!-- normal 모드 에서 insert 모드로 변경 키 : 'i' -->
+  <!-- insert 모드에서 normal 모드로 변경 키 : 'esc' -->
+  <!-- normal 모드에서 visual 모드로 변경 키 : 'v' -->
+  <h1>환영합니다. WEB 공부중입니다</h1>
+  <H2>HEADING 2</H2>
+  <H3>HEADING 3</H3>
+  <H4>HEADING 4</H4>
+  <H5>HEADING 5</H5>
+  <H6>HEADING 6</H6>
+  <p>Lorem hwkim dolor sit amet consectetur adipisicing elit. Aut enim a dolor cum? Odio, id est. Fugit cum, debitis doloribus quasi delectus, id animi cupiditate quaerat nostrum omnis, suscipit neque.</p>
+  <br>
+  <hr>
+  <a href="http://nanuri.myds.me">NANURI</a><br>
+  <a href="#">빈링크</a><br>
+  <a href="#move2">헤딩2로 이동</a>
+  <hr>
+  <H2 id="move2">헤딩 2</H2><hr>
+  <h1><b>글자의 형태와 의미 부여</b></h1>
+  <h1><i>글자의 형태와 의미 부여</i></h1>
+  <h1><small>글자의 형태와 의미 부여</small></h1>
+  <!-- 아래에 달라붙는 글자테그 -->
+  <h1><sub>글자의 형태와 의미 부여</sub></h1> 
+  <!-- 위에 달라붙는 글자 테그 -->
+  <h1><sup>글자의 형태와 의미 부여</sup></h1>
+  <h1><ins>글자의 형태와 의미 부여</ins></h1>
+  <h1><del>글자의 형태와 의미 부여</del></h1>
+  <hr>
+
+  <!-- 사용자 정의 테그, 테그 이름을 마음대로 지정하면 스타일을 적용할 수 없을 수 있다 -->
+  <food>사용자 정의 테그</food>
+
+  <!-- 목록 테그  ul(unordered 순서없음), ol(ordered 순서있음), li(list item 목록 요소) -->
+  <h1>
+    <ol>
+      <li>web</li>
+      <li>html</li>
+      <li>css</li>
+    </ol>
+  </h1>
+
+  <h1>
+    <ul>
+      <li>java</li>
+      <li>javascript</li>
+      <li>typescript</li>
+    </ul>
+  </h1>
+
+  <h1>
+    <ul>
+      <li>HTML5
+        <ol>
+          <li>TAG</li>
+          <li>IMAGE</li>
+          <li>MOVIE</li>
+        </ol>
+      </li>
+      <li>CSS3
+        <ol>
+          <li>COLOR</li>
+          <li>LINE</li>
+          <li>SHAPE</li>
+        </ol>
+      </li>
+    </ul>
+  </h1>
+
+  <!-- 정의 목록 테그 : dl(definition list), dt(definition term), dd(definition description) -->
+  <dl>
+    <dt>HTML5
+      <dd>multimedia tag</dd>
+      <dd>connectivity</dd>
+      <dd>device access</dd>
+    </dt>
+
+    <dt>CSS3
+      <dd>animation</dd>
+      <dd>3d transform</dd>
+      <dd>python</dd>
+    </dt>
+  </dl>
+
+<!-- 테이블 테그 : tr(table row), th(table header), td(table data) -->
+  <table border="1">
+    <caption>CAPTION</caption>
+    <colgroup>
+      <col span="2" style="background: red;">
+      <col style="background: skyblue;">
+    </colgroup>
+    <thead style="background: green;">
+      <tr>
+        <th>Table Header</th>
+        <th>Table Header</th>
+        <th>Table Header</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Table Data</td>
+        <td>Table Data</td>
+        <td>sum</td>
+      </tr>
+      <tr>
+        <td>Table Data</td>
+        <td>Table Data</td>
+        <td>sum</td>
+      </tr>
+      <tr>
+        <td>Table Data</td>
+        <td>Table Data</td>
+        <td>sum</td>
+      </tr>
+    </tbody>
+    <tfoot style="background: yellow;">
+      <tr>
+        <td>Table sum</td>
+        <td>Table sum</td>
+        <td>Table sum</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <table border="1">
+    <tr>
+      <th colspan="3">table data</th>
+      <th rowspan="3">비고</th>
+    </tr>
+    <tr>
+      <td>data1</td>
+      <td rowspan="2">data2</td>
+      <td>data3</td>
+    </tr>
+    <tr>
+      <td>data4</td>
+      <td>data5</td>
+    </tr>
+  </table>
+  <br>
+<!-- 이미지 테그 : img, alt, 절대경로, 상대경로(없거나 ./ : 현재경로, ../ : 위에 경로) -->
+  <img src="https://nanuri.myds.me/web_images/html.jpg" alt="이미지가 없습니다" width="1000">
+  <img src="web_images/css.jpg" alt="CSS image" width="1000">
+  <br>
+  <hr>
+<!-- 오디오 비디오 테그 -->
+  <h3>포레스텔라 - 살다가</h3>
+  <audio src="audio/포레스텔라 - 살다가.m4a" controls="controls"></audio><br>
+  <h3>장사익 - 봄날은 간다</h3>
+  <audio src="audio/장사익 - 봄날은간다.m4a" controls="controls"></audio><br>
+  <h3>박창근 - 외로운 사람들</h3>
+  <audio src="audio/박창근 - 외로운사람들.m4a" controls="controls"></audio><br>
+  <h3>신승태 - 막걸리 한잔</h3>
+  <audio src="audio/신승태 - 막걸리한잔.m4a" controls="controls"></audio>
+  <hr>
+  <video src="video/대한민국.mp4" controls width="1400"></video>
+  <hr>
+  <video src="video/부산.mp4" controls width="1400"></video>  
+  <hr>
+  <video src="video/홀리뱅.mp4" controls width="1400"></video>  
+  <hr>
+<!-- 입력양식 테그 -->
+  <form action="">
+    <label for="name">이름</label>
+    <input id="name" type="text"><br>
+    <input type="button"><br>
+    <input type="checkbox"><br>
+    <input type="hidden"><br>
+    <input type="image"><br>
+    <input type="password" name="password"><br>
+    <input type="radio"><br>
+    <input type="reset"><br>
+    <input type="file" name="file"><br>
+    <input type="submit"><br>
+    <input type="color"><br>
+    <input type="date"><br>
+    <input type="datetime"><br>
+    <input type="datetime-local"><br>
+    <input type="email"><br>
+    <input type="month"><br>
+    <input type="number"><br>
+    <input type="range"><br>
+    <input type="search"><br>
+    <input type="tel"><br>
+    <input type="time"><br>
+    <input type="url"><br>
+    <input type="week"><br>
+    <label for="memo">댓글을 남겨주세요</label><br>
+    <textarea name="memo" id="memo" cols="100" rows="10">의견을 남겨주세요</textarea>
+  </form>
+
+  <select name="" id="">
+    <option value="">김밥</option>
+    <option value="">떡볶이</option>
+    <option value="">순대</option>
+    <option value="">오뎅</option>
+  </select>
+
+<!-- 공간분할 테그 -->
+  <div>imagine your korea</div>
+  <div>imagine your korea</div>
+  <div>imagine your korea</div>
+  <div>imagine your korea</div>
+  <div>imagine your korea</div>
+
+  <span>Imagine Your Korea</span>
+  <span>Imagine Your Korea</span>
+  <span>Imagine Your Korea</span>
+  <span>Imagine Your Korea</span>
+  <span>Imagine Your Korea</span>
+  <hr>
+
+  이름 : <input type="text"><br>
+  성별 : <input type="radio">남성<input type="radio">여성<br>
+  취미 : <input type="checkbox">운동<input type="checkbox">음악<input type="checkbox">개발<br>
+  <input type="submit">
+
+  
+</body>
+</html>
