@@ -1,0 +1,24 @@
+KoNLP 설치 방법
+
+R의 버전이 업데이트됨에 따라 과거에는 설치가 잘되던 패키지가 
+새 버전의 R에서는 설치가 안되는 경우가 가끔 발생한다. 
+KoNLP 패키지도 그중의 하나이다. 
+KoNLP가 정상적인 방법으로 설치가 잘 안되는 경우 다음과 같이 하도록 한다.
+
+install.packages('rJava')
+install.packages('hash’
+install.packages('tau')
+install.packages('Sejong')
+install.packages('RSQLite')
+install.packages('https://cran.r-project.org/src/contrib/Archive/KoNLP/KoNLP_0.80.2.tar.gz', repos=NULL, type='source', INSTALL_opts = c('--no-lock'))
+
+
+이 방법이 잘 안되는 경우는 아래의 인터넷 사이트를 참조하여 해결 한다.
+
+https://buillee.tistory.com/965
+http://blog.naver.com/PostView.nhn?blogId=sjmoon925&logNo=221862591349
+http://blog.naver.com/PostView.nhn?blogId=jang0_0yw&logNo=221838447170
+
+
+
+
